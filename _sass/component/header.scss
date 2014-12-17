@@ -1,0 +1,32 @@
+#header-primary {
+	//height: 120px;
+	width: 100%;
+	background-color: #666;
+	padding: 5em 1em 3.5em 1em;
+
+	$header-color: #eee;
+  $header-image: "http://ericgardner.info/carte_du_vin/images/header_banner.jpg";
+  @include background(url($header-image));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  color: $header-color;
+
+  //margin-top: 3em;
+
+  @include media($medium-screen-up) {
+  	margin-top: 0em;
+  	h1 {
+  		padding-left: 1rem;
+      font-size: 3rem;
+  	}
+  }
+
+  .header-content {
+  	@include outer-container;
+
+  }
+
+
+}

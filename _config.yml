@@ -1,0 +1,18 @@
+# Site settings
+title: Carte Du Vin | Wine Cellar Management
+email:  
+description: "Carte du Vin offers the most complete wine cellar services available."
+baseurl: "http://ericgardner.info/carte_du_vin" # the subpath of your site, e.g. /blog/
+url: "http://carteduvin.com" # the base hostname & protocol for your site
+twitter_username: carteduvin
+github_username:  carteduvin
+
+# Build settings
+markdown: kramdown
+
+# Permalinks
+permalink: pretty
+
+sass:
+    sass_dir: _sass
+    style: normal
