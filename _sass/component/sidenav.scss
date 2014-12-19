@@ -1,0 +1,22 @@
+ul.sidenav {
+	$sidebar-color: transparentize(white, 0.3);
+	color: $sidebar-color;
+	margin-bottom: 1rem;
+
+	li {
+		font-size: $base-font-size * 1.125;
+		padding-top: .25rem;
+		padding-bottom: .25rem;
+		margin-bottom: 0.5rem;
+		border-bottom: 1px solid $sidebar-color;
+
+		@include media($medium-screen-up) {
+			max-width: 85%;
+		}
+
+	}
+
+	li a {
+		@include link-variant($sidebar-color, white);
+	}
+}

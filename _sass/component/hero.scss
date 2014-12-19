@@ -1,93 +1,30 @@
 .hero {
-  $hero-color: white;
-  margin-top: 7em;
 
-  @include media($medium-screen-up) {
-    padding-bottom: 4em;
-    margin-top: 6em;
-  }
-  @include media($large-screen-up){
-    padding-top: 5em;
-  }
+  text-align: center;
+  margin: auto;
 
   .hero-inner {
-    @include outer-container;
-    @include clearfix;
-    padding: 4em;
-    margin: auto;
-    text-align: center;
-    color: $hero-color;
 
-    img {
-      max-width: 100%;
-      height: auto;
-      opacity: 0.8;
-      margin-bottom: 2em;
-    }
 
-    @include media($medium-screen-up) {
-      text-align: center;
-      padding-left: 1rem;
-    }
 
     .hero-copy {
-      // global and mobile-first
-      text-align: center;
-      h1 {
-        font-size: 2em;
-        margin-bottom: .5em;
-        font-weight: 500;
-      }
+      position: relative;
+      top: 27vh;
+      padding: 1.5rem;
+      font-size: $base-font-size * 1.25;
 
-      p {
-        font-family: $sans-serif;
-        font-size: 1.25em;
-        margin: auto;
-        margin-bottom: 2em; 
-        font-weight: 200;
-        line-height: 1.4em;
-        opacity: .9;
-        letter-spacing: 2px;
-        text-align: center;
-      }
-
+      * { margin-top: 0.25rem; margin-bottom: 1rem;}
+      img { }
+      p { letter-spacing: 1px; }
       a.button {
-        @include button(pill, #571212);
-        font-size: 1.25em;
-        @include padding(.75em);
-        margin: auto;
+        font-size: $base-font-size * 1.1;
+        @include button(pill, $purple);
       }
 
-      // medium screen
-      @include media($medium-screen-up) {
-        text-align: center;
-        @include span-columns(6 of 10);
-        @include shift(2);
-
-        h1 {
-          font-size: 1.65em;
-        }
-
-        p {
-          font-size: 1.35em;
-        }
-
+      @include media($medium-screen-up){
+        top: 32vh;
       }
 
-      // large screen
-      @include media($large-screen-up) {
-        text-align: center;
-        @include span-columns(8 of 12);
-        @include shift(2);
-
-        h1 {
-          font-size: 2.5em;
-        }
-
-        p {
-          font-size: 1.25em;
-        }
-      }
     }
   }
 }

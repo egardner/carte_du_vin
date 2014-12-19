@@ -6,7 +6,12 @@
  * See the ToC in _application.scss
  */
 
-$asset-path: "{{site.baseurl}}";
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 /* Normalize
  * -----------------------------------------------------------------------------*/
@@ -69,11 +74,10 @@ $asset-path: "{{site.baseurl}}";
 @import "component/article";
 @import "component/signup";
 @import "component/footer";
-
+@import "component/sidenav";
 
 
 
 /* Pages
  * -----------------------------------------------------------------------------*/
 @import "page/home";
-@import "page/news";

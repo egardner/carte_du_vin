@@ -24,14 +24,18 @@ $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
 
-$purple: #571212;
+$purple: darken(#571212, 4);
+$dark-purple: darken($purple, 8);
 
-// Background Color
-$base-background-color: darken($purple, 5);
+// content background Color
+$base-background-color: $dark-purple;
+
+// Footer color
+
 
 // Font Colors
-$base-font-color: white;
-$base-accent-color: $purple;
+$base-font-color: #FEFEFA;
+$base-accent-color: $dark-purple;
 
 // Link Colors
 $base-link-color: $base-accent-color;
