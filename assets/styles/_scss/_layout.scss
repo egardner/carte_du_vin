@@ -4,7 +4,7 @@ html {
   }
 }
 
-body {
+.has-footer {
   @include display(flex);
   @include flex-direction(column);
   min-height: 100vh;
@@ -37,7 +37,7 @@ header.article-header {
   .meta, .author {color: white; }
 }
 
-div#bottom {
+.has-footer div#bottom {
   @include flex(1);
   width: 100%;
   background-color: darken($purple, 8);
