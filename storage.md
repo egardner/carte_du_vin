@@ -1,11 +1,8 @@
 ---
-layout: page
-title: Storage
+title: Wine Storage
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat nulla ante. Fusce ut elit bibendum, facilisis dui vitae, viverra erat. In feugiat elit arcu, vel lobortis velit viverra at. In eget mattis elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed finibus, risus eu ultricies pellentesque, ex risus congue diam, quis aliquet enim augue ac ipsum. Pellentesque molestie ante et odio consectetur maximus vitae ut mauris. Suspendisse vitae nisl arcu. Curabitur vitae posuere lacus. Curabitur ultrices neque iaculis tortor blandit pellentesque. Nullam vitae nisi ut erat ultricies consequat quis nec risus.
+In 2008, Carte du Vin opened **The Best Cellar** wine storage in a space that was formerly Christie’s Fine Wine Auctions. Our goal was to have Los Angeles’ first, and only, full-service wine storage. Traditional wine storage lockers are labor intensive for collectors, and make it difficult to access the wine that you desire. Furthermore, keeping an accurate inventory, or efficiently using the locker space, is nearly impossible.
+At The Best Cellar, we perform a complete inventory of your collection, and manage the entire process of accessing your wines from storage. Your collection will be viewable on **Cellartracker.com**, which comes complete with wine reviews, scores, current valuation, and drink-by dates. Our palletized, warehouse-style storage, allows us to keep rates competitive by only charging on the space that you use. Our location has multi-layered security, and is temperature and humidity controlled.  
 
-Suspendisse aliquam magna vitae bibendum cursus. Maecenas interdum, turpis et varius pretium, sem erat auctor massa, sit amet consectetur massa metus ac leo. Aenean luctus semper accumsan. Phasellus sagittis lacinia libero et rhoncus. Praesent sodales semper tortor, id faucibus nibh sagittis vel. Pellentesque volutpat libero elit, in tempus odio semper iaculis. Cras cursus, odio in consectetur vehicula, lacus quam dapibus odio, quis tincidunt felis erat nec augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam vestibulum vel felis sit amet porttitor. Aliquam porta, metus eget dignissim elementum, risus orci sollicitudin sapien, ut pharetra ligula tellus at eros.
-
-In non tellus in arcu congue faucibus sed eu nisi. Nam nec ipsum eget urna porta sollicitudin. Donec id risus elementum, facilisis diam in, luctus enim. Vestibulum mattis enim id porttitor fringilla. Aliquam pretium augue sollicitudin, tincidunt dui id, aliquet tellus. Sed auctor sed orci quis aliquam. Praesent luctus, neque ac tempus venenatis, purus sapien feugiat purus, ac rutrum turpis mauris vel erat.
-
+The Best Cellar offers a complete selection of services including inventory management, receiving of packages or pallets, shipping nationwide, local delivery, moving locally or nationally, short-term storage, and wine storage strategies. Please contact us for current rates. At The Best Cellar, The Service is the Difference.
