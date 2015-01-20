@@ -1,6 +1,6 @@
 html {
   @include hidpi(1.5) {
-    -webkit-text-stroke: 0.35px;
+    -webkit-text-stroke: .35px;
   }
 }
 
@@ -8,53 +8,77 @@ html {
   @include display(flex);
   @include flex-direction(column);
   min-height: 100vh;
-}
 
-// basic page margins
-div.content { 
-  padding: 1rem;
-  @include outer-container;
-}
+  #bottom {
+    @include flex(1);
+    background-color: darken($purple, 8);
+    width: 100%;
 
-div#top { 
-  color: white;
-  padding-top: 1rem;
-  width: 100%;
-  background-color: darken($base-accent-color, 24);
+    a {
+      @include transition(color .1s linear);
+      color: transparentize(#fff, .5);
+      text-decoration: none;
 
-  $header-image: "../img/header_banner.jpg";
-  @include background(url($header-image));
-  background-repeat: no-repeat;
-  background-position: center 20%;
-  background-size: cover;
-
-}
-
-header.article-header {
-  margin-top: 0rem ;
-  margin-bottom: $base-font-size * 2;
-  h1 { margin-top: 1rem; }
-  .meta, .author {color: white; }
-}
-
-.has-footer div#bottom {
-  @include flex(1);
-  width: 100%;
-  background-color: darken($purple, 8);
-
-  a {
-    @include transition(color 0.1s linear);
-    color: transparentize(white, 0.5);
-    text-decoration: none;
-    &:hover {
-      color: white;
+      &:hover {
+        color: #fff;
+      }
     }
   }
 }
 
-div#bottom section {
-  font-size: $base-font-size * 0.85;
-  opacity: 0.65;
+// basic page margins
+.content { 
+  @include outer-container;
+  padding: 1rem;
+
+  aside {
+    font-size: $base-font-size * 1.1;
+    font-weight: 200;
+    letter-spacing: $base-letter-spacing;
+    line-height: 1.4;
+    
+    .scroll-to-top {
+      display: none;
+    }
+
+    a {
+      @include transition(color .1s linear);
+      color: transparentize(#fff, .5);
+      text-decoration: none;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+}
+
+
+}
+
+#top { 
+  $header-image: '../img/header_banner.jpg';
+  @include background(url($header-image));
+  background-color: darken($base-accent-color, 24);
+  background-position: center 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding-top: 1rem;
+  width: 100%;
+}
+
+.article-header {
+  margin-bottom: $base-font-size * 2;
+  margin-top: 0;
+  h1 { margin-top: 1rem; }
+  .meta, 
+  .author {color: #fff; }
+}
+
+
+#bottom section {
+  font-size: $base-font-size * .85;
+  opacity: .65;
 
   @include media($medium-screen-up) {
     @include span-columns(4);
@@ -64,69 +88,50 @@ div#bottom section {
 
 // responsive layout
 @include media ($medium-screen-up) {
-  header.article-header { margin-top: $base-font-size * 4; }
+  .article-header { margin-top: $base-font-size * 4; }
 }
 
 @include media ($large-screen-up) {
-  header.article-header { margin-top: $base-font-size * 5; }
+  .article-header { margin-top: $base-font-size * 5; }
 }
 
 // fix for nav bar overlap
 @media screen and (max-width: $medium-screen) {
-  header.article-header h1 {
-    margin-top: 3rem;
+  .article-header h1 {
     margin-bottom: 1rem;
+    margin-top: 3rem;
   }
 }
 
 // article list
-ul.articles li { 
+.articles li { 
   margin-bottom: $base-font-size * 2; 
-}
-ul.articles li.intro {
-  margin-bottom: $base-font-size * 3;
-}
 
-div.content aside {
-
-  .scroll-to-top {
-    display: none;
+  .intro {
+    margin-bottom: $base-font-size * 3;
   }
-
-  font-size: $base-font-size * 1.1;
-  font-weight: 200;
-  letter-spacing: $base-letter-spacing;
-  line-height: 1.4;
-
-  a {
-    @include transition(color 0.1s linear);
-    color: transparentize(white, 0.5);
-    text-decoration: none;
-    &:hover {
-      color: white;
-    }
-  }
-
 }
+
 
 // 2-column layout
 @include media($medium-screen-up) {
 
-  div.content aside {
+  .content aside {
+    @include span-columns(4);
+    margin-top: 30px;
 
-  .scroll-to-top {
-    display: inline;
-    position: relative;
-    top: 20px;
+    .scroll-to-top {
+      display: inline;
+      position: relative;
+      top: 20px;
+    }
+      
+    li {
+      margin-bottom: .75em;
+    }
   }
-
-  @include span-columns(4);
-  margin-top: 30px;
-  li {
-    margin-bottom: 0.75em;
-  }
-}
-  article.main-column {
+  
+  .main-column {
     @include span-columns(8);
     @include omega;
   }
@@ -142,7 +147,7 @@ div.content aside {
   embed,
   object,
   iframe {
-    @include position(absolute, 0px null null 0px);
+    @include position(absolute, 0 null null 0);
     @include size(100%);
   }
 }
