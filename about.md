@@ -1,17 +1,7 @@
 ---
-layout: page
 title: About Us
 ---
 
-####Jeff Smith- Founder/President
+Carte du Vin wine cellar management offers the most complete wine cellar services available. From inventory management to wine acquisitions or liquidations, our services provide collectors with the most enjoyment from their cellar. Founded in Los Angeles in 2002, Carte du Vin has assisted hundreds of prominent collectors worldwide to achieve their collecting goals. Whether your needs are for a single occasion or you require recurrent service, Carte du Vin is the right choice for your wine cellar.  
 
-jeff@carteduvin.com
-
-Jeff Smith founded Carte Du Vin Wine Cellar Management in order to bring harmony to a chaotic world. Recognized by the Wall Street Journal, New York Times, and CNN as a leader in wine cellar management, Carte Du Vin has provided service to over 250 clients in 17 states. His book, The Best Cellar, is widely considered to be the funniest book ever written on the subject of wine cellars.
-
-####Kevin Tyson- Vice-President
-
-kevin@carteduvin.com
-
-Kevin joined Carte Du Vin as a consultant in 2010 and is responsible for all aspects of cellar management. He brings with him years of experience within the wine and restaurant industry including working with famed-chef Thomas Keller at Bouchon in Beverly Hills, and as General Manager and Wine Director for Hawks Restaurant in Granite Bay, CA. He is a certified sommelier, accredited by the International Sommelier Guild in 2006.
-
+Carte du Vin Inc. was founded in Los Angeles, CA in 2002 by Jeff Smith to provide wine cellar management services to private collectors globally. As a wine enthusiast himself, Jeff identified that he needed to bring harmony into the chaotic world of wine collecting. Recognized by the Wall Street Journal, New York Times, and CNN as a leader in wine cellar management, Jeff quickly proved to the wine world why such a need for his services exists. While inventory and organization remain a core division of the business, Carte du Vin now provides a menu of of unique wine services to hundreds of collectors with all types and sizes of collections around the country. When you work with Carte du Vin, it is clear why we are the best option for your wine collection needs.

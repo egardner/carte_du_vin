@@ -1,0 +1,46 @@
+body.home {
+  $hero-color: white;
+  $hero-image: "../img/wine-cellar.jpg";
+  $logo-image: "../img/carte_du_vin_logo_full.svg";
+
+  @include background(url($hero-image));
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  //padding-bottom: 4em;
+  //margin-top: 3.5em;
+
+  #logo {
+    opacity: 0;
+  }
+}
+
+.hero {
+
+  text-align: center;
+  margin: auto;
+
+  .hero-inner {
+
+    .hero-copy {
+      position: relative;
+      top: 27vh;
+      padding: 1.5rem;
+
+      * { margin-top: 0.35rem; margin-bottom: 1rem;}
+      img { }
+      p { letter-spacing: 1px; font-size: $base-font-size * 1.1; }
+      a.button {
+        font-size: $base-font-size;
+        @include button(pill, $purple);
+        letter-spacing: $base-letter-spacing;
+      }
+
+      @include media($medium-screen-up){
+        top: 32vh;
+      }
+    }
+  }
+}
+

@@ -1,30 +1,15 @@
 <!DOCTYPE html>
-<html class="no-js">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ page.title }}</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-    {% include shared/styles.html %}
-    <script src="{{ site.baseurl }}/scripts/vendor/modernizr/modernizr.js"></script>
-  </head>
-
-  <body class="home">
-    <!--[if lt IE 9]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
-    {% include shared/nav.html %}
-    {% include shared/hero.html %}
-    <div id="home-content">
-    {{ content }}
+<html>
+{% include head.html %}
+<body class="home">
+{% include nav.html %}
+<div class="hero m-scene">
+  <div class="hero-inner scene_element scene_element--fadeinafter">
+    <div class="hero-copy">
+      <img src="{{site.baseurl}}/assets/img/carte_du_vin_logo_full.svg">
+      <p>The most complete wine cellar services available.</p>
+      <a href="{{site.baseurl}}/contact" class="button">Request a Consultation</a>  
     </div>
-
-    {% include shared/scripts.html %}
-    {% include shared/google-analytics.html %}
-  </body>
-</html>
+  </div>
+</div>
+</body>

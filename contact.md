@@ -1,11 +1,10 @@
 ---
-layout: page
 title: Contact Us
 ---
 
 <fieldset id="signup">
 	<form>
-		<h2>Request a Consultation</h2>
+		<h3>Request a Consultation</h3>
 
 		<p>Here are some instructions for users before they fill out the form.</p>
 
