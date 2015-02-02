@@ -1,10 +1,10 @@
 /* Typography
 =======================================================*/ 
 // Custom fonts
-$montserrat: "Montserrat", "Helvetica", "Arial", sans-serif;
+$lato: "Lato", "Helvetica", "Arial", sans-serif;
 
 // Typography
-$sans-serif: $montserrat;
+$sans-serif: $lato;
 $serif: $georgia;
 $base-font-family: $sans-serif;
 $base-font-weight: 200;
@@ -24,7 +24,7 @@ $type-scale: 1.25;
 /* Font Sizes
 =======================================================*/ 
 $base-font-size: 1em;
-$base-line-height: 1.75;
+$base-line-height: 1.6;
 $header-line-height: 1.25;
 
 html, body {
@@ -85,8 +85,8 @@ $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
 
-$purple: darken(#571212, 4);
-$dark-purple: darken($purple, 8);
+$purple: darken(#571212, 3);
+$dark-purple: darken($purple, 7);
 
 // content background Color
 $base-background-color: $purple;
@@ -95,7 +95,7 @@ $base-background-color: $purple;
 
 
 // Font Colors
-$base-font-color: #FEFEFA;
+$base-font-color: transparentize(#fff, .3);
 $base-accent-color: $dark-purple;
 
 // Link Colors

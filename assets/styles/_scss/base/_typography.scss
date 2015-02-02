@@ -90,7 +90,7 @@ cite {
 
 // other styles
 article {
-  h1, h2, h3, h4, h5, h6 { font-weight: 300};
+  h1, h2, h3, h4, h5, h6 { font-weight: bold};
   a, strong { font-weight: 300; }
   ul { list-style-type: disc }
   ul, ol {
@@ -110,7 +110,7 @@ article {
 }
 
 // forms
-fieldset#signup {
+fieldset#consultation {
   //@include shift(2);
   padding: 0;
   margin-top: 0;
@@ -119,9 +119,24 @@ fieldset#signup {
   border-radius: 5px;
   background-color: $purple;
   border: none;
-}
 
-input, textarea {
-  color: #333;
-  font-weight: 300;
+  input, textarea {
+    background-color: $dark-purple;
+    border: none;
+    padding: 1em;
+    font-size: $base-font-size * 1.25;
+    color: #fff;
+  }
+
+  textarea {
+    height: 300px;
+  }
+
+  select {
+    background-color: $dark-purple;
+    border: none;
+    padding: 5px;
+    min-width: 200px;
+  }
+
 }

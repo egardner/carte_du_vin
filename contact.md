@@ -2,30 +2,24 @@
 title: Contact Us
 ---
 
-<fieldset id="signup">
-	<form>
+<fieldset id="consultation">
+	<form accept-charset="UTF-8" action="https://formkeep.com/f/0387033d1109" method="POST">
+  <input type="hidden" name="utf8" value="✓">
 		<h3>Request a Consultation</h3>
+    <br>
+    <input type="text" name="name" placeholder="Your Name">
+		<input type="email" name="email" placeholder="Your Email">
+    <p><label for="select_element">Select Element:</label>
+      <select name="select_element">
+        <option value="inventory">Inventory Management</option>
+        <option value="acquisition/liquidation">Acquisition/Liquidation</option>
+        <option value="moving">Moving Services</option>
+        <option value="disaster">Disaster Relief</option>
+        <option value="appraisals">Appraisals</option>
+    </select></p>
 
-		<p>Here are some instructions for users before they fill out the form.</p>
-
-		<p><label for="text_field">Your Email:</label>
-			<input type="text" id="text_field" /></p>
-			<p><label for="text_area">Text Area:</label>
-        <textarea id="text_area"></textarea></p>
-
-      <p><label for="select_element">Select Element:</label>
-        <select name="select_element">
-          <optgroup label="Option Group 1">
-            <option value="1">Option 1</option>
-            <option value="2">Option 2</option>
-            <option value="3">Option 3</option>
-          </optgroup>
-          <optgroup label="Option Group 2">
-            <option value="1">Option 1</option>
-            <option value="2">Option 2</option>
-            <option value="3">Option 3</option>
-          </optgroup>
-      </select></p>
-		<button>Submit</button>
+		<p><label for="text_area">How can we help you?</label>
+    <textarea id="text_area"></textarea></p>
+		<button class="larger">Send</button>
 	</form>
 </fieldset>

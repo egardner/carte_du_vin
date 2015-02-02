@@ -13,6 +13,14 @@
 @include font-face("Montserrat", '{{site.baseurl}}/assets/fonts/montserrat-hairline-webfont', 200);
 @include font-face("Montserrat", '{{site.baseurl}}/assets/fonts/montserrat-light-webfont', 300);
 
+// Lato
+@include font-face("Lato", '{{site.baseurl}}/assets/fonts/Lato-Light', 300);
+@include font-face("Lato", '{{site.baseurl}}/assets/fonts/Lato-Regular', normal);
+@include font-face("Lato", '{{site.baseurl}}/assets/fonts/Lato-Italic', normal, italic);
+@include font-face("Lato", '{{site.baseurl}}/assets/fonts/Lato-Bold', bold);
+
+
+
 /* Globals
  * ---------------------------------------------------------------------------*/
 @import "base/base";
