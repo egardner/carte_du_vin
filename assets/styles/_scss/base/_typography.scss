@@ -91,7 +91,7 @@ cite {
 // other styles
 article {
   h1, h2, h3, h4, h5, h6 { font-weight: bold};
-  a, strong { font-weight: 300; }
+  a, strong { font-weight: 600; color: rgba(255,255,255,0.85); }
   ul { list-style-type: disc }
   ul, ol {
     font-weight: $base-font-weight;
