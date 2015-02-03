@@ -9,17 +9,18 @@ title: Contact Us
     <br>
     <input type="text" name="name" placeholder="Your Name">
 		<input type="email" name="email" placeholder="Your Email">
-    <p><label for="select_element">Select Element:</label>
-      <select name="select_element">
+    <p><label for="service">Interested in:</label>
+      <select name="service">
         <option value="inventory">Inventory Management</option>
         <option value="acquisition/liquidation">Acquisition/Liquidation</option>
         <option value="moving">Moving Services</option>
         <option value="disaster">Disaster Relief</option>
         <option value="appraisals">Appraisals</option>
+        <option value="other">Other</option>
     </select></p>
 
-		<p><label for="text_area">How can we help you?</label>
-    <textarea id="text_area"></textarea></p>
+		<p><label for="message">How can we help you?</label>
+    <textarea id="message"></textarea></p>
 		<button class="larger">Send</button>
 	</form>
 </fieldset>

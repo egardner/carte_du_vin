@@ -7,7 +7,7 @@ $lato: "Lato", "Helvetica", "Arial", sans-serif;
 $sans-serif: $lato;
 $serif: $georgia;
 $base-font-family: $sans-serif;
-$base-font-weight: 200;
+$base-font-weight: normal;
 $header-font-family: $base-font-family;
 $header-font-weight: 200;
 $base-letter-spacing: 1px;
@@ -95,7 +95,7 @@ $base-background-color: $purple;
 
 
 // Font Colors
-$base-font-color: transparentize(#fff, .3);
+$base-font-color: transparentize(#fff, .35);
 $base-accent-color: $dark-purple;
 
 // Link Colors

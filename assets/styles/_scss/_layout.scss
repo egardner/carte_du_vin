@@ -1,6 +1,6 @@
 html {
   @include hidpi(1.5) {
-    -webkit-text-stroke: .35px;
+    //-webkit-text-stroke: .35px;
   }
 }
 
@@ -33,6 +33,14 @@ html {
   padding: 1rem;
 
   aside {
+
+    @include media($medium-screen-down){
+      li {
+        margin-bottom: 10px;
+      }
+
+    }
+
     font-size: $base-font-size * 1.1;
     font-weight: 200;
     letter-spacing: $base-letter-spacing;
@@ -82,8 +90,15 @@ html {
   opacity: .65;
 
   @include media($medium-screen-up) {
-    @include span-columns(6);
+    @include span-columns(4);
     margin: 1rem 0;
+  }
+}
+
+#bottom section.right {
+  @include media($medium-screen-up) {
+    @include span-columns(4);
+    @include shift(4);
   }
 }
 
