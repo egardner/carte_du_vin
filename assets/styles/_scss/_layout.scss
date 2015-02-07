@@ -32,13 +32,22 @@ html {
   @include outer-container;
   padding: 1rem;
 
+  a {
+    @include transition(color .1s linear);
+    color: transparentize(#fff, .25);
+    text-decoration: none;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
   aside {
 
     @include media($medium-screen-down){
       li {
         margin-bottom: 10px;
       }
-
     }
 
     font-size: $base-font-size * 1.1;
@@ -49,19 +58,43 @@ html {
     .scroll-to-top {
       display: none;
     }
-
-    a {
-      @include transition(color .1s linear);
-      color: transparentize(#fff, .5);
-      text-decoration: none;
-
-      &:hover {
-        color: #fff;
-      }
-    }
+  }
 }
 
+ul.press {
+  @include fill-parent();
+  padding-left: 0;
+  margin-top: 1.5rem;
+  list-style-type: none;
 
+  li {
+    @include media($medium-screen-up) {
+      @include span-columns(4);
+      @include omega(3n);
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    img {
+      @include transition(opacity .1s linear);
+      opacity: 0.75;
+      
+      &:hover {
+        opacity: 1;
+      }
+      @include media($medium-screen-up) {
+        margin: .5rem auto;
+      }
+
+      height: 40px;
+      display: block;
+    }
+
+    a {
+      display: block;
+      margin-bottom: 2rem;
+    }
+  }
 }
 
 #top { 
