@@ -73,14 +73,18 @@ picture {
 }
 
 blockquote {
-  border-left: 2px solid $base-border-color;
-  color: lighten($base-font-color, 35);
+  border-left: 3px solid transparentize($base-border-color, .65);
+  color: transparentize(#fff, .6);
   margin: $base-spacing 0;
   padding-left: $base-spacing / 2;
 }
 
+blockquote p {
+  font-size: $base-font-size * 1.15;
+}
+
 cite {
-  color: lighten($base-font-color, 35);
+  color: lighten($base-font-color, 10);
   font-style: italic;
 
   &:before {
