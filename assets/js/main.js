@@ -7,8 +7,10 @@ library: jquery-2.1.3.min.js
 {% include_relative _lib/jquery.smoothState.js %}
 
 
-// Responsive nav menu menu
+
 $(document).ready(function() {
+
+  // Responsive nav menu menu
   jQuery.mark.jump();
   var menu = $('#navigation-menu');
   var menuToggle = $('#js-mobile-menu');
@@ -46,6 +48,16 @@ $(document).ready(function() {
         $sidebar.css({marginTop: 32});
       }
     };
+  });
+
+  // Expandable sections - toggle extra text
+  $('.main-column section p').nextAll().hide();
+  $('.main-column section').append('<a href="#" class="readmore">Read More</a>');
+
+  $('.readmore').click(function(event){
+    $(this).text($(this).text() == 'Read More' ? 'Read Less' : 'Read More');
+    $(this).parent().find("p").fadeToggle();
+    event.preventDefault();
   });
 
 });

@@ -61,6 +61,11 @@ html {
   }
 }
 
+a.readmore {
+  opacity: 0.65;
+  font-size: $base-font-size * 0.9;
+}
+
 ul.press {
   @include fill-parent();
   padding-left: 0;

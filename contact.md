@@ -12,7 +12,7 @@ title: Contact Us
     <p><label for="service">Interested in:</label>
       <select name="service">
         <option value="inventory">Inventory Management</option>
-        <option value="acquisition/liquidation">Acquisition/Liquidation</option>
+        <option value="acquisition/liquidation">Acquisition/Sales</option>
         <option value="moving">Moving Services</option>
         <option value="disaster">Disaster Relief</option>
         <option value="appraisals">Appraisals</option>
